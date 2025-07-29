@@ -13,8 +13,8 @@
 
 ## Завантажити 
 
-* Завантажити PDF версію : <https://spielend-programmieren.at/byte_of_python_ukraine/AByteOfPythonUkraine.pdf>
-* Завантажити версію EPUB : <https://spielend-programmieren.at/byte_of_python_ukraine/AByteOfPythonUkraine.epub>
+* Завантажити PDF версію : see <https://spielend-programmieren.at/byte_of_python_ukraine/>
+* Завантажити версію EPUB : see <https://spielend-programmieren.at/byte_of_python_ukraine/>
 * Переглянути веб-версію: <https://spielend-programmieren.at/byte_of_python_ukraine/>
 
  
