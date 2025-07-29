@@ -1,0 +1,6 @@
+$ python for_loop_ukr.py
+1
+2
+3
+4
+Цикл for завершено

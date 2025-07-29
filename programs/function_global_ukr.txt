@@ -1,0 +1,4 @@
+$ python function_global_ukr.py
+x дорівнює 50
+Глобальний x змінено на 2
+Значення x є 2

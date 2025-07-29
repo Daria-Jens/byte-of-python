@@ -1,0 +1,10 @@
+$ python backup_ver4_ukr.py
+Введіть коментар  --> додав нові приклади
+Zip command є:
+zip -r /Users/swa/backup/20140329/074122_додав_нові_приклади.zip /Users/swa/notes
+Запуск:
+  adding: Users/swa/notes/ (stored 0%)
+  adding: Users/swa/notes/blah1.txt (stored 0%)
+  adding: Users/swa/notes/blah2.txt (stored 0%)
+  adding: Users/swa/notes/blah3.txt (stored 0%)
+Резервна копія успішно створена /Users/swa/backup/20140329/074122_додав_нові_приклади.zip

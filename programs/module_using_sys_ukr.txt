@@ -1,0 +1,9 @@
+$ python module_using_sys_ukr.py ми є аргументами	
+Аргументи командного рядка:
+module_using_sys.py
+ми
+є
+аргументи
+
+змінна середовища "Pythonpath" вашого комп'ютера: Змінна середовища PYTHONPATH 
+містить (тут ви побачите ВАШ Python path)

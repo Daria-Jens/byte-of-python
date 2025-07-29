@@ -1,0 +1,4 @@
+$ python function_local_ukr.py
+x дорівнює 50
+Заміна локального x на 2
+x як і раніше 50

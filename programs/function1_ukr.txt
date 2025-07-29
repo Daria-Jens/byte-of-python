@@ -1,0 +1,3 @@
+$ python function1_ukr.py
+привіт, Світ!
+привіт, Світ!

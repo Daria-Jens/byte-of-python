@@ -1,0 +1,2 @@
+$ python module_using_name_ukr.py
+Ця програма виконується самостійно

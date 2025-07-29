@@ -1,0 +1,11 @@
+$ python exceptions_handle_ukr.py
+Введіть щось -->   # натисніть ctrl + d
+Чому ви прислалі мені сигнал кінец файлу? 
+
+$ python exceptions_handle_ukr.py
+Введіть щось -->  # натисніть ctrl + c
+Ви скасували операцію.  
+
+$ python exceptions_handle_ukr.py
+Введіть щось --> Без винятків
+Ви увійшли Без винятків

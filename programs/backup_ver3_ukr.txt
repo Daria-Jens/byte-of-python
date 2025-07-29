@@ -1,0 +1,5 @@
+$ python backup_ver3_ukr.py
+  File "backup_ver3.py", line 39
+    ціль = сьогодні + os.sep + зараз + '_' +
+                                        ^
+SyntaxError: invalid syntax

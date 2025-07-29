@@ -1,0 +1,7 @@
+$ python stdlib_logging_ukr.py
+Logging to /Users/swa/test.log
+
+$ cat /Users/swa/test.log
+2014-03-29 09:27:36,660 : DEBUG : Початок програми
+2014-03-29 09:27:36,660 : INFO : Якісь дії
+2014-03-29 09:27:36,660 : WARNING : Програма вмирає

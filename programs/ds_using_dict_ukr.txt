@@ -1,0 +1,10 @@
+$ python3 using_dict_ukr.py
+Адрес Swaroop'а: swaroop@swaroopch.com
+
+В адресній книзі 3 контакта
+
+Контакт Swaroop за адресою: swaroop@swaroopch.com
+Контакт Larry за адресою: larry@wall.org
+Контакт Matsumoto за адресою: matz@ruby-lang.org
+
+Адрес Guido: guido@python.org

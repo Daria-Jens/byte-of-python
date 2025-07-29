@@ -1,0 +1,5 @@
+$ function_param1_ukr.py
+
+привіт привіт 
+Toshiba Toshiba 
+Lenovo Lenovo Lenovo Lenovo Lenovo Lenovo Lenovo Lenovo
