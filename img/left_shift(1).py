@@ -1,0 +1,7 @@
+print("in base 2:")
+print(" 0b1001<<1")
+print("=")
+print(bin(0b1001<<1))
+print()
+print("in base 10:")
+print(0b1001, "<<1 =", 0b1001<<1)

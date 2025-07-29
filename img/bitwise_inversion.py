@@ -1,0 +1,8 @@
+print("in base 2:")
+print("~0b1001 = ")
+print(bin(~0b1001))
+print("=-(x+1)=-(0b1001 + 0b0001) = -0b1010")
+print()
+print("~-0b1111 = ")
+print("  "+bin(~-0b1111))
+print("=-(x+1)=-(-0b1111+0b0001)=-0b1110")
