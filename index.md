@@ -19,7 +19,8 @@
 :gutter: 5
 
 ::::{grid-item}
-![Daria JENS](img/daria.jpeg)<br>
+![Daria JENS](img/daria.jpeg)
+
 _Дарія Йенс ([Daria JENS](https://www.linkedin.com/in/daria-jens-6b382a7/))_
 ::::
 ::::{grid-item}
