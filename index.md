@@ -2,7 +2,8 @@
 # Byte of Python (ukraine)
 
 Це українське видання книги «A Byte of Python». Щиро вітаємо!
- 
+
+* URL-адреса цього проєкту: <https://spielend-programmieren.at/byte_of_python_ukraine/>  
 * Aвтор книги: Swaroop CH <https://www.swaroopch.com/>
   * Оригінал цієї книги (english): <https://python.swaroopch.com/>
 * Перекладач: Daria JENS <https://https://github.com/Daria-Jens>
@@ -43,9 +44,9 @@ _Дарія Йенс ([Daria JENS](https://www.linkedin.com/in/daria-jens-6b382a
 
 ## Завантажити 
 
-* Завантажити PDF версію : ( coming soon )
-* Завантажити версію EPUB : ( coming soon )
-* Переглянути веб-версію: <https://spielend-programmieren.at/byte_of_python_ukraine/>
+* [Завантажити PDF версію](AByteOfPythonUkraine.pdf)
+* [Завантажити версію EPUB](AByteOfPythonUkraine.epub)
+
 
 ## Зміст
 
