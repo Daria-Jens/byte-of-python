@@ -1,0 +1,33 @@
+flowchart TD
+
+print_instruction([display short instruction text]):::firstclass
+print_help([display long help text]):::fourthclass
+ask_for_password>ask user for new passord]:::secondclass
+password_is_help{password == 'help'?}:::thirdclass
+
+
+
+is_letter_in_password{is a letter in <br>password?}:::fifthclass
+is_number_in_password{is number in <br>password?}:::sixtclass
+
+
+start_of_program--> print_instruction
+print_instruction-->ask_for_password
+ask_for_password-->password_is_help
+password_is_help--NO-->is_letter_in_password
+password_is_help--YES-->print_help
+
+
+is_letter_in_password --YES-->is_number_in_password
+is_letter_in_password --NO-->tell_error_message-->print_instruction
+is_number_in_password--YES-->congratulations
+congratulations-->end_of_program
+is_number_in_password--NO-->tell_error_message2-->print_instruction
+print_help --> print_instruction
+
+classDef firstclass fill:#0000f0
+classDef secondclass fill:#880000
+classDef thirdclass fill:#a088bb
+classDef fourthclass fill:#0066ff
+classDef fifthclass fill:#dd4400
+classDef sixtclass fill:#228822

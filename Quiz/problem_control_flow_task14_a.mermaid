@@ -1,0 +1,39 @@
+flowchart TD
+start:::firstclass
+ask_question>user_enters_an_answer]:::secondclass
+show_instructions:::thirdclass
+end_of_program:::fourthclass
+
+
+start-->show_instructions
+show_instructions-->ask_question
+
+ask_question--exit--> end_of_program
+ask_question--help--> display_help
+ask_question--42--> congratulations
+ask_question--Other-->show_instructions
+
+
+display_help --> show_instructions
+congratulations --> end_of_program
+
+classDef firstclass fill:#4040ff
+classDef secondclass fill:#800000
+classDef thirdclass fill:#208090
+classDef fourthclass fill:#6600aa
+
+
+flowchart TD
+
+початок --> отримати_час_доби>отримати час доби]
+отримати_час_доби --> 6_11{між 6 і 11?}
+6_11 --|ні|--> 11_14{між 11 і 14?}
+6_11 --|так|--> доброго_ранку[/доброго ранку/]
+11_14 --|ні|-->14_18{ між  14 і 18?}
+11_14 --|так|--> доброго_дня[/доброго дня/]
+14_18 --|ні|-->18_21{ між 18 і 21?}
+14_18 --|так|-->доброго_вечора[/доброго вечора/]
+18_21 --|ні|-->доброї_ночі[/доброї ночі/]
+18_21 --|так|-->доброго_вечора[/доброго вечора/]
+
+

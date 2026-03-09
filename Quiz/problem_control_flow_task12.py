@@ -1,0 +1,5 @@
+# problem control flow task 12
+for a in ("abc","def","ghi"):
+    for b in (100,200,300,400):
+        for c in "yz":
+            print(a,b,c)
