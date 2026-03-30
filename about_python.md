@@ -1,92 +1,93 @@
-# About Python
+# Про мову програмування Python
 
-Python is one of those rare languages which can claim to be both _simple_ and _powerful_. You will find yourself pleasantly surprised to see how easy it is to concentrate on the solution to the problem rather than the syntax and structure of the language you are programming in.
+Python — одна з тих рідкісних мов, які можуть бути водночас _простими_ і _потужними_. Ви будете приємно здивовані, побачивши, як легко зосередитися на вирішенні поставленого завдання, а не на синтаксисі та структурі мови, на якій ви програмуєте.
 
-The official introduction to Python is:
+Офіційно мову Python представляють так:
 
-> Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+> Python — це потужна мова програмування, яка проста у вивченні. Вона має ефективні високорівневі структури даних та простий, але ефективний підхід до об’єктно-орієнтованого програмування. Елегантний синтаксис і динамічна типізація мови Python разом із інтерпретованою природою роблять ії ідеальною мовою для створення сценаріїв і швидкої розробки додатків у багатьох сферах на більшості платформ.
 
-I will discuss most of these features in more detail in the next section.
+Більш детально я розповім про більшість із цих особливостей у наступному розділі.
 
-## Story behind the name
+## Історія, що стоїть за назвою
 
-Guido van Rossum, the creator of the Python language, named the language after the BBC show "Monty
-Python's Flying Circus". He doesn't particularly like snakes that kill animals for food by winding
-their long bodies around them and crushing them.
+Гвідо ван Россум, автор мови програмування Python, назвав свою розробку на честь телешоу на
+BBC під назвою "Літаючий Цирк Монті Пайтона"(англ."Monty Python's Flying Circus"). 
+А зовсім не тому,що він любить змій, які вбивають тварин для їжі шляхом звивання
+їхніх довгих тіл навколо них і розчавлювання їх.
 
-## Features of Python
+## Особливості Python
 
-### Simple
+### Проста мова програмування
 
-Python is a simple and minimalistic language. Reading a good Python program feels almost like reading English, although very strict English! This pseudo-code nature of Python is one of its greatest strengths. It allows you to concentrate on the solution to the problem rather than the language itself.
+Python — проста та мінімалістична мова. Читання якісного коду на мові Python виглядає майже як читання англійською, хоча англійська дуже сувора! Така «псевдокодова» природа мови Python є однією з ії найбільших переваг. Це дозволяє зосередитися на вирішенні завдання, а не на самій мові.
 
-### Easy to Learn
+### Легкість у вивченні
 
-As you will see, Python is extremely easy to get started with. Python has an extraordinarily simple syntax, as already mentioned.
+Як ви побачите,з мови Python дуже легко почати програмувати. Python має надзвичайно простий синтаксис, як уже згадувалося.
 
-### Free and Open Source
+### Вільне і відкрите програмне забезпечення
 
-Python is an example of a _FLOSS_ (Free/Libre and Open Source Software). In simple terms, you can freely distribute copies of this software, read its source code, make changes to it, and use pieces of it in new free programs. FLOSS is based on the concept of a community which shares knowledge. This is one of the reasons why Python is so good - it has been created and is constantly improved by a community who just want to see a better Python.
+Python є прикладом _ВВПЗ_ (Вільне та Відкрите Програмне Забезпечення), (англ."_FLOSS_" (Free/Libre and Open Source Software)).Простіше кажучи, ви можете вільно поширювати копії цього програмного забезпечення, читати його вихідний код, вносити в нього зміни та використовувати його частини в нових безкоштовних програмах. ВВПЗ базується на концепції спільноти, яка ділиться знаннями. Це одна з причин, чому мова Python така гарна - вона була створена і постійно вдосконалюється спільнотою, яка  прагне зробити мову ще кращою.
 
-### High-level Language
+### Мова високого рівня
 
-When you write programs in Python, you never need to bother about the low-level details such as managing the memory used by your program, etc.
+Коли ви пишете програми на мові Python, вам ніколи не доведеться турбуватися про деталі низького рівня, такі, як наприклад, керування пам’ятю, яку використовує ваша програма, тощо.
 
-### Portable
+### Python — портативна мова програмування
 
-Due to its open-source nature, Python has been ported to (i.e. changed to make it work on) many platforms. All your Python programs can work on any of these platforms without requiring any changes at all if you are careful enough to avoid any system-dependent features.
+Через свою відкриту природу, мова Python була портована (тобто змінена, щоб змусити її працювати) на багатьох платформах. Усі ваші програми на мові Python можуть працювати на будь-якій із цих платформ, не вимагаючи жодних змін, якщо ви будете достатньо обережні, щоб уникнути будь-яких системно-залежних функцій.
+Ви можете використовувати мову Python на GNU/Linux, Windows, FreeBSD, Macintosh, Solaris, OS/2, Amiga, AROS, AS/400, BeOS, OS/390, z/OS, Palm OS, QNX, VMS, Psion, Acorn RISC OS, VxWorks, PlayStation, Sharp Zaurus, Windows CE і PocketPC!
 
-You can use Python on GNU/Linux, Windows, FreeBSD, Macintosh, Solaris, OS/2, Amiga, AROS, AS/400, BeOS, OS/390, z/OS, Palm OS, QNX, VMS, Psion, Acorn RISC OS, VxWorks, PlayStation, Sharp Zaurus, Windows CE and PocketPC!
+Ви навіть можете використовувати таку платформу, як [Kivy](http://kivy.org), щоб створювати ігри для свого комп’ютера _і_ для iPhone, iPad і Android.
 
-You can even use a platform like [Kivy](http://kivy.org) to create games for your computer _and_ for iPhone, iPad, and Android.
+### Інтерпретована мова
 
-### Interpreted
+Це вимагає трохи пояснень.
 
-This requires a bit of explanation.
+Програма, написана компільованою мовою програмування, як наприклад, C або C\+ +, перетворюється з вихідного коду(тобто C або C++) на мову, зрозумілу компьютеру (бінарний код, тобто нулі та одиниці), використовуючи компілятор з різними опціями. Коли ви запускаєте програму, компонувальник/завантажувач (англ."linker/loader software") копіює програму з жорсткого диска в оперативну пам’ять і починає її виконання.
 
-A program written in a compiled language like C or C\++ is converted from the source language i.e. C or C++ into a language that is spoken by your computer (binary code i.e. 0s and 1s) using a compiler with various flags and options. When you run the program, the linker/loader software copies the program from hard disk to memory and starts running it.
+Мова Python, напроти, не потребує компіляції у бінарний код. Ви просто _запускаєте_ програму безпосередньо з вихідного коду(англ."source code"). Aвтоматично мова Python перетворює вихідний код у деяку проміжну форму, звану байт-кодами, а потім перекладає байт-коди на рідну мову вашого комп’ютера (бінарний код), і запускає. Все це, насправді, значно полегшує використання мови Python, оскільки вам не потрібно турбуватися про компіляцію програми, переконуватися, що відповідні бібліотеки пов’язані та завантажені тощо.Це також робить ваші програми на Python набагато більш портативними, оскільки ви можете просто скопіювати свою програму,написану мовою Python на інший комп’ютер, і вона просто запрацює!
 
-Python, on the other hand, does not need compilation to binary. You just _run_ the program directly from the source code. Internally, Python converts the source code into an intermediate form called bytecodes and then translates this into the native language of your computer and then runs it. All this, actually, makes using Python much easier since you don't have to worry about compiling the program, making sure that the proper libraries are linked and loaded, etc. This also makes your Python programs much more portable, since you can just copy your Python program onto another computer and it just works!
+### Об'єктно-орієнтоване програмування
 
-### Object Oriented
+Мова Python підтримує процедурно-орієнтоване програмування, а також об’єктно-орієнтоване програмування (ООП). У _процедурно-орієнтованих_ мовах програма побудована навколо процедур або функцій, які є не що інше, як багаторазові частини програм. У _об’єктно-орієнтованих_ мовах програма побудована навколо об’єктів, які поєднують дані та функціонал. Python має дуже простий, але потужний спосіб створення ООП, особливо в порівнянні з такими великими мовами, як C++ або Java.
 
-Python supports procedure-oriented programming as well as object-oriented programming (OOP). In _procedure-oriented_ languages, the program is built around procedures or functions which are nothing but reusable pieces of programs. In _object-oriented_ languages, the program is built around objects which combine data and functionality. Python has a very powerful but simplistic way of doing OOP, especially when compared to big languages like C++ or Java.
+### Розширювана мова
 
-### Extensible
+Якщо вам потрібно,щоб деякий критичний фрагмент коду працював дуже швидко, або ви хочете, щоб якийсь фрагмент алгоритму не був відкритим для інших, ви можете програмувати цю частину вашої програми на мові C або C\++, а потім викликати її з ваших програм на мові Python.
 
-If you need a critical piece of code to run very fast or want to have some piece of algorithm not to be open, you can code that part of your program in C or C\++ and then use it from your Python program.
+### Можливість вбудовування
 
-### Embeddable
+Ви можете вбудовувати Python у свої програми C/C\++, щоб надати користувачам "_scripting_ capabilities" (можливості  написати маленький фрагмент коду на мові Python всередені вашої великої програми(наприклад, C/C\++,Java,тощо )).
 
-You can embed Python within your C/C\++ programs to give _scripting_ capabilities for your program's users.
 
-### Extensive Libraries
+### Обширні бібліотеки
 
-The Python Standard Library is huge indeed. It can help you do various things involving regular expressions,documentation generation, unit testing, threading, databases, web browsers, CGI, FTP, email, XML, XML-RPC, HTML, WAV files, cryptography, GUI (graphical user interfaces), and other system-dependent stuff. Remember, all this is always available wherever Python is installed. This is called the _Batteries Included_ philosophy of Python.
+Стандартна бібліотека мови Python дійсно величезна. Вона може допомогти з вирішенням самих різноманітних завдань, пов'язаних з використанням регулярних виразів, генеруваням документації, перевіркою блоків коду, розпаралелювання процесів, базами даних, веб-браузерами, CGI, FTP, електронною поштою, XML, XML-RPC, HTML, файлами WAV, криптографією, GUI (графічними інтерфейсами користувача), та іншими системно-залежними речами. Пам’ятайте, що все це завжди доступно, де б не було встановлено Python. Це називається філософією Python _Все в комплекті_ ("_Batteries Included_" ).
 
-Besides the standard library, there are various other high-quality libraries which you can find at the [Python Package Index](http://pypi.python.org/pypi).
+Крім стандартної бібліотеки, існують інші високоякісні бібліотеки, які ви можете знайти в [каталозі пакетів Python](http://pypi.python.org/pypi).
 
-### Summary
+### Резюме
 
-Python is indeed an exciting and powerful language. It has the right combination of performance and features that make writing programs in Python both fun and easy.
+Мова Python справді захоплююча та потужна. Вона має правильне поєднання продуктивність і можливості, які роблять написання програм на мові Python одночасно цікавим і легким.
 
-## Python 3 versus 2
+## Різниця між версією Python 3 та 2
 
-You can ignore this section if you're not interested in the difference between "Python version 2" and "Python version 3". But please do be aware of which version you are using. This book is written for Python version 3.
+Ви можете проігнорувати цей розділ, якщо вас не цікавить різниця між версіями «Python 2» і «Python 3». Але майте на увазі, яку версію ви використовуєте. Ця книга написана для версії Python 3.
 
-Remember that once you have properly understood and learn to use one version, you can easily learn the differences and use the other one. The hard part is learning programming and understanding the basics of Python language itself. That is our goal in this book, and once you have achieved that goal, you can easily use Python 2 or Python 3 depending on your situation.
+Пам’ятайте, що як тільки ви правильно зрозумієте та навчитеся використовувати одну версію, ви зможете легко дізнатися про відмінності та використовувати іншу. Найважче – навчитися програмуванню та зрозуміти основи самої мови Python.Це наша мета в цій книзі, і коли ви досягнете цієї мети, ви зможете легко використовувати Python 2 або Python 3 залежно від вашої ситуації.
 
-For details on differences between Python 2 and Python 3, see:
+Докладніше про відмінності між Python 2 і Python 3 дивиться:
 
-- [The future of Python 2](http://lwn.net/Articles/547191/)
-- [Porting Python 2 Code to Python 3](https://docs.python.org/3/howto/pyporting.html)
-- [Writing code that runs under both Python2 and 3](https://wiki.python.org/moin/PortingToPy3k/BilingualQuickRef)
-- [Supporting Python 3: An in-depth guide](http://python3porting.com)
+- [Майбутнє Python 2 (англ."The future of Python 2")](http://lwn.net/Articles/547191/)
+- [Перенесення коду Python 2 на Python 3 (англ."Porting Python 2 Code to Python 3")](https://docs.python.org/3/howto/pyporting.html)
+- [Написання коду, який працює на Python2 і 3(англ."Writing code that runs under both Python 2 and 3")](https://wiki.python.org/moin/PortingToPy3k/BilingualQuickRef)
+- [Підтримка Python 3: докладний посібник(англ."Supporting Python 3: An in-depth guide")](http://python3porting.com)
 
-## What Programmers Say
+## Що кажуть програмісти
 
-You may find it interesting to read what great hackers like Eric S. Raymond (ESR) have to say about Python:
+Можливо, вам буде цікаво почитати, що такі великі хакери, як Ерік С. Реймонд (ESR), мають сказати про Python:
 
-- _Eric S. Raymond_ is the author of "The Cathedral and the Bazaar" and is also the person who coined the term _Open Source_. He says that [Python has become his favorite programming language](http://www.python.org/about/success/esr/). This article was the real inspiration for my first brush with Python.
-- _Bruce Eckel_ is the author of the famous 'Thinking in Java' and 'Thinking in C++' books. He says that no language has made him more productive than Python. He says that Python is perhaps the only language that focuses on making things easier for the programmer. Read the [complete interview](http://www.artima.com/intv/aboutme.html) for more details.
-- _Peter Norvig_ is a well-known Lisp author and Director of Search Quality at Google (thanks to Guido van Rossum for pointing that out). He says that [writing Python is like writing in pseudocode](https://news.ycombinator.com/item?id=1803815). He says that Python has always been an integral part of Google. You can actually verify this statement by looking at the [Google Jobs](http://www.google.com/jobs/index.html) page which lists Python knowledge as a requirement for software engineers.
+- _Ерік Стівен Реймонд_ є автором книги «Собор і базар», а також людиною, яка ввела термін _відкритого програмного забезпечення_. Він каже, що [Python став його улюбленою мовою програмування](http://www.python.org/about/success/esr/). Ця стаття стала справжнім натхненням моїх перших робіт з Python.
+- _Брюс Екель_ є автором знаменитих книг «Мислення на Java» та «Мислення на C++». Він каже, що жодна мова не зробила його більш продуктивним, ніж мова Python. Він вважає, що Python, мабуть, єдина мова, яка спрямована на полегшення роботи програміста. Прочитайте [повне інтерв’ю](http://www.artima.com/intv/aboutme.html), щоб дізнатися більше.
+- _Пітер Норвіг_ — відомий автор Lisp і директор із якості пошуку в Google (дякую Гвідо ван Россуму за те, що звернув увагу на це). Він каже, що [написання на Python — це все одно, що написання в псевдокоді](https://news.ycombinator.com/item?id=1803815). Він каже, що Python завжди був невід’ємною частиною Google. Ви можете перевірити це твердження, переглянувши сторінку [Вакансії в Google](http://www.google.com/jobs/index.html), на якій знання Python є обов’язковими для інженерів програмного забезпечення.
