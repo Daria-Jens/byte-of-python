@@ -12,24 +12,15 @@
 Приклад (зберегти як `module_using_sys.py`):
 
 
-:::::{tab-set}
-::::{tab-item} українська
-**код python** [module_using_sys_ukr.py](programs/module_using_sys_ukr.py)
+
+::::{admonition} код python [module_using_sys_ukr.py](programs/module_using_sys_ukr.py)
 :::{literalinclude} programs/module_using_sys_ukr.py
 :::
 **Висновок**: 
 :::{literalinclude} programs/module_using_sys_ukr.txt
 :::
 ::::
-::::{tab-item} англійською
-**python code** [module_using_sys_en.py](programs/module_using_sys_en.py)
-:::{literalinclude} programs/module_using_sys_en.py
-:::
-**output:**
-:::{literalinclude} programs/module_using_sys_en.txt
-:::
-::::
-:::::
+
 
 
 **Як це працює**
