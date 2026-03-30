@@ -200,6 +200,7 @@ if you wanna make your work also fun:
 
 ```
 
+
 ## Оператор  `continue`
 ![uk-flag](img/brit_flag.png){w=40px}{bdg-secondary-line}`англійська:` _The `continue` Statement_ 
 
