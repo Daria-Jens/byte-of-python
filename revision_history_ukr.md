@@ -112,5 +112,6 @@
 - 0.10
     - 14 Nov 2003
     - Первинний начерк у редакторі [KWord](https://en.wikipedia.org/wiki/Kword).
+    - 
 
 
