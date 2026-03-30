@@ -76,7 +76,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ## PyCharm
 
-PyCharm (Community Edition) це безкоштовний редактор, спеціально розроблений для написання програм на Python. Щоб завантажити PyCharm, [дотримуйтесь інструкцій на](https://www.jetbrains.com/pycharm/download/)  
+[PyCharm (Community Edition)](https://lp.jetbrains.com/pycharm-for-students/) це безкоштовний редактор, спеціально розроблений для написання програм на Python. Щоб завантажити PyCharm, [дотримуйтесь інструкцій на](https://www.jetbrains.com/pycharm/download/)  
 
 Зверніть увагу, що PyCharm також пропонує професійну версію редактора з більшими можливостями, однак ця версія не є безкоштовною.
 
@@ -101,8 +101,8 @@ Vim є відомим безкоштовним текстовим редакто
 
 2.Перегляньте статті про те, як адаптувати Vim для використання з програмами Python у вашій операційній системі, наприклад:
 
-* https://realpython.com/vim-and-python-a-match-made-in-heaven/
-* https://rapphil.github.io/vim-python-ide/
+* <https://realpython.com/vim-and-python-a-match-made-in-heaven/>
+* <https://rapphil.github.io/vim-python-ide/>
  
 ## Emacs
 
@@ -111,8 +111,8 @@ Emacs є дуже відомим безкоштовним текстовим р�
 1. Завантажте та встановіть Emacs <http://www.gnu.org/software/emacs/>
 2. Перегляньте статті про те, як адаптувати Emacs для написання програм на Python у вашій операційній системі, наприклад:
 
-* https://realpython.com/emacs-the-best-python-editor/
-* https://www.emacswiki.org/emacs/PythonProgrammingInEmacs
+* <https://realpython.com/emacs-the-best-python-editor/>
+* <https://www.emacswiki.org/emacs/PythonProgrammingInEmacs>
 
 
 ## Iнші редактори
@@ -122,11 +122,11 @@ Emacs є дуже відомим безкоштовним текстовим р�
 
 Список редакторів Pytho можна знайти тут:
 
-* https://wiki.python.org/moin/PythonEditors
+* <https://wiki.python.org/moin/PythonEditors>
 
 
 ## Без використання редактора - робота безпосередньо з вихідними файлами 
-![uk-flag](img/brit_flag.png){w=40px}{bdg-secondary-line}`англійська:` _Using no editor - working directly with source files_
+![uk-flag](img/brit_flag.png){w=20px}{bdg-secondary-line}`англійська:` _Using no editor - working directly with source files_
 
 Вам не потрібен спеціальний редактор для написання програм на Python, ви можете використовувати будь-який редактор, якщо збережете свою програму на Python як текстовий файл із правильним розширенням файлу ".py". 
 
